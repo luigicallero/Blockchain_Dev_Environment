@@ -3,13 +3,16 @@ Installing and configuring all necessary tools to start from Zero: Ubuntu, NodeJ
 
 
 **Installing Truffle: **
+https://www.trufflesuite.com/docs/truffle/getting-started/installation
 
-´´ bash
+```bash
 npm install -g truffle
-´´ 
+``` 
 
 After installing truffle you can check up to what Solidity Versions it supports with command:
+```bash
 truffle version
+``` 
 As in this example below it supports versions up to 0.6.12
 _
 luisca@luisca-desktop:~/gr10/bondi-mat$ truffle version
